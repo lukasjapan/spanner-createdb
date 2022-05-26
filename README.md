@@ -1,6 +1,6 @@
 # spanner-createdb
 
-Create spanner instances/databases (standalone Go script)
+Create spanner instances/databases (standalone Go application)
 
 ## Install
 
