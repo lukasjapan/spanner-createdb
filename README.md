@@ -5,7 +5,7 @@ Create spanner instances/databases (standalone Go script)
 ## Install
 
 ```bash
-go install github.com/lukasjapan/spanner-createdb
+go install github.com/lukasjapan/spanner-createdb@latest
 ```
 
 ## Usage
