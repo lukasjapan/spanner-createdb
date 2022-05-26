@@ -1,6 +1,6 @@
 # spanner-createdb
 
-Creates spanner instances/databases (standalone Go script)
+Create spanner instances/databases (standalone Go script)
 
 ## Install
 
@@ -42,4 +42,4 @@ spanner-createdb my-dev-db
 
 To provide a standalone script create new spanner instances/databases without the Google Cloud SDK.
 
-Ideal for including in docker containers/images.
+Ideal for including in docker containers/images or if you do not want to install the cloud sdk.
