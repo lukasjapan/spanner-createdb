@@ -1,4 +1,5 @@
 # spanner-createdb
+
 Creates spanner instances/databases (standalone Go script)
 
 ## Install
@@ -18,7 +19,7 @@ Usage:
   spanner-createdb {projectId}/instances/{instanceId}/databases/{databaseId}
   spanner-createdb projects/{projectId}/instances/{instanceId}/databases/{databaseId}
 
-You can also pass the ids via environmane variables:
+You can also pass the ids via environment variables:
   SPANNER_PROJECT_ID
   SPANNER_INSTANCE_ID
   SPANNER_DATABASE_ID

@@ -154,7 +154,7 @@ func main() {
 		fmt.Printf("  spanner-createdb {projectId}/instances/{instanceId}/databases/{databaseId}\n")
 		fmt.Printf("  spanner-createdb projects/{projectId}/instances/{instanceId}/databases/{databaseId}\n")
 		fmt.Printf("\n")
-		fmt.Printf("You can also pass the ids via environmane variables:\n")
+		fmt.Printf("You can also pass the ids via environment variables:\n")
 		fmt.Printf("  SPANNER_PROJECT_ID\n")
 		fmt.Printf("  SPANNER_INSTANCE_ID\n")
 		fmt.Printf("  SPANNER_DATABASE_ID\n")
