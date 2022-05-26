@@ -40,6 +40,6 @@ spanner-createdb my-dev-db
 
 ## Motivation
 
-To provide a standalone script create new spanner instances/databases without the Google Cloud SDK.
+To provide a standalone script that can create new spanner instances/databases without the Google Cloud SDK.
 
 Ideal for including in docker containers/images or if you do not want to install the cloud sdk.
