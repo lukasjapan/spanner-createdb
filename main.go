@@ -129,7 +129,7 @@ func create(args []string) error {
 	err = createInstance(projectId, instanceId)
 
 	if err != nil {
-		fmt.Printf("  %s\n\n", err.Error())
+		return err
 	}
 
 	err = createDatabase(projectId, instanceId, databaseId)
